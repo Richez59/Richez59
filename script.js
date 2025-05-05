@@ -18,12 +18,12 @@ updateClock();
 
 // Share to Friends
 function shareToFriend() {
-  const shareText = "Check out Nexus Bot! Join the channel here:\nhttps://whatsapp.com/channel/0029Vajvy2kEwEjwAKP4SI0x";
+  const shareText = "Check out Teddy-xmd Bot! Join the Group here:\nhttps://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5";
   if (navigator.share) {
     navigator.share({
-      title: 'Nexus-xmd',
+      title: 'Teddy-xmd',
       text: shareText,
-      url: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x'
+      url: 'https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5'
     });
   } else {
     prompt("Copy and share this link with your friends:", shareText);
